@@ -1,0 +1,9 @@
+#program to print sum of N natural numbers
+def sum(n):
+    if n == 1:
+        return 1
+    else:
+        return (n-1)+(n-2)
+n = int(input("enter a number:"))
+m = sum(n)
+print("sum is:",m)
